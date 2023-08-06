@@ -5,6 +5,8 @@ import MenuSection from './MenuSection';
 import AboutSection from './AboutSection';
 import ContactSection from './ContactSection';
 import Footer from './Footer';
+import Cards from './Cards';
+import Garage from './Cards';
 
 const MainLayout = () => {
   return (
@@ -15,6 +17,8 @@ const MainLayout = () => {
       <AboutSection />
       <ContactSection />
       <Footer />
+      <Garage />
+      <Cards />
     </div>
   );
 };

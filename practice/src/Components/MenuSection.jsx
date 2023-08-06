@@ -7,11 +7,15 @@ const menuItems = [
   { name: 'Latte', price: '$3.50',style: { backgroundColor: 'burlywood', opacity:'0.9', color: 'brown', width:'20rem' } },
   // Add more menu items here
 ];
+const center ={
+  position:'relative',
+  left:'33rem',
+}
 
 const MenuSection = () => {
   return (
     <Container sx={{ }}>
-      <Typography variant="h5" sx={{ mt: 8, backgroundColor:'burlywood', color:'brown', width:'10rem', height:'10rem', border:'5px solid brown', borderRadius:'50%',fontFamily:'cursive', fontSize:'2rem', fontWeight:'bold', justifyContent:'center', display:'flex' }}>
+      <Typography variant="h5" sx={{ mt: 8, backgroundColor:'burlywood', color:'brown', width:'10rem', height:'10rem', border:'5px solid brown', borderRadius:'50%',fontFamily:'cursive', fontSize:'2rem', fontWeight:'bold', justifyContent:'center', display:'flex' }}  style={center}>
         <p className='mt-8'> Our  <br /> Menu</p>
       </Typography>
       <List sx={{ mt: 2 }}>
