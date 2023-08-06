@@ -21,7 +21,7 @@ const Header = () => {
         </Typography>
 
         {/* <div className='flex flex-row max-w-auto lg:ml-[50rem] md:ml-[20rem] sm:ml-[10rem] responsive'> */}
-        <Box sx={{ marginLeft: {sm:40,md:60,lg:100 } }}>
+        <Box sx={{ marginLeft: {sm:'40',md:'60',lg:'100' } }}>
         <Button color="inherit" sx={{'&:hover': {backgroundColor: 'burlywood',color: 'white',},}}
  //component={Link} to="/" 
         >
